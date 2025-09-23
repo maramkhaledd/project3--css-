@@ -1,9 +1,34 @@
 body{
     margin:0; 
     padding: 0;
+    background-color:rgb(39, 39, 39);
 }
 
+#imgarea{
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+}
 
 #img_sec{
-  width:500px;
+display:block;
+padding:7% 0 0 0;
+width:100%;
+margin:0 0 50%  ;
+}
+
+#gymtext{
+position: absolute;
+top:20%;
+left:25%;
+color:white;
+font-weight: bold;
+font-size: 40px;
+background-color: rgba(48, 48, 48, 0.452);
+padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
