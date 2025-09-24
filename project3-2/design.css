@@ -13,16 +13,17 @@ body {
   justify-content: center;
 }
 
-#img_sec {
-  display: block;
-  padding: 7% 0 0 0;
-  width: 100%;
-  margin: 50px;
+#img_sec{
+
+display:block;
+padding:2% 0 0 0;
+width:100%;
+
 }
 
 #gymtext {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 25%;
   font-weight: bold;
   font-size: 40px;
@@ -41,7 +42,7 @@ h3 {
   justify-content: center;
 }
 
-.programs {
+#program {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -53,20 +54,53 @@ h3 {
   padding: 15px;
   border-radius: 10px;
   width: 300px;
+  text-align: center;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
+  font-size: ;
 }
 
 footer {
-  margin: 30px;
+  margin: 30px 0 0 0;
   padding: 10px;
-  font-size: 14px;
+  font-size: 20px;
   background-color: #212121;
   display: flex;
   justify-content: center;
+}
+
+
+h6{
+    padding:0px;
+    text-align:center;
+    color: red;
+    font-size: 40px;
+    margin: 10px 0 ;
+ 
+}
+
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+.main-nav a {
+  color: white;
+  font-size: large;
+  
+  text-decoration: none;
+  
+}
+
+.main-nav li{
+  margin: 0 20px;
 }
